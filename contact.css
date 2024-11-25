@@ -1,0 +1,393 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    height: 15vh;
+    /* background-color: brown; */
+    background-color: #b99ba0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    margin: 20px;
+}
+.logo img{
+    width: 200px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.logo h1{
+    margin-top: 50px;
+    font-size: 1.7em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:-110px;
+    color: rgb(216, 216, 216);
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 16%;
+    font-size: 2em;
+    color: white;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* .header ul li:hover{
+    color: white;
+    /* background-color: deeppink; */
+    /* border-radius: 20px;
+    width: 260px;
+    height: 40px;
+    text-decoration: line-through;
+
+} */ 
+
+.header ul li {
+    position: relative;
+}
+
+.header ul li:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px; /* Adjust thickness */
+    width: 50%;
+    background-color: deeppink; /* Adjust underline color */
+}
+.header {
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+   
+}
+
+
+/* section */
+.sectino1{
+   margin-top: 4%;
+    justify-content: center;
+    display: flex;
+    /* background-color: #e284b0; */
+   
+}
+.container{
+    background-color: rgb(245, 169, 207);
+    width: 900px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 2.3em;
+}
+.container p{
+    color: rgb(245, 243, 243);
+    text-align: center;
+    margin-top: 20px;
+}
+.inputone{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+label{
+    font-size: 1.9em;
+    font-weight: bold;
+}
+.inputone input{
+    width: 16em;
+    height: 2.5em;
+    border-radius: 15px;
+    padding-left: 16px;
+    border: none;
+    outline-color: rgb(237, 213, 240);
+    background-color: rgb(238, 199, 243);
+    box-shadow: 3px 3px 10px black;
+    font-size: 1.3em;
+
+}
+textarea{
+    width: 750px;
+    height: 300px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: none;
+    outline-color: rgb(244, 207, 245);
+    background-color: rgb(247, 201, 244);
+    box-shadow: 4px 4px 10px black;
+    font-size: 1.3em;
+}
+.container button {
+    background-color: #e284b0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 4%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.box3, .social-media {
+    text-align: center;
+    margin-top: -10%;
+    margin-left: 23%;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+/* foooter */
+.foooter{
+    height: 50vh;
+    background-color: #e284b0;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.link{
+    margin-top: 150px;
+}
+.link ul{
+    list-style: none;
+    font-size: 1.6em;
+    margin-top: 20px;
+    color: #615e5e;
+}
+.link ul li:hover {
+    color: #fff; /* Optional: change text color on hover */
+    text-decoration: underline; /* Adds an underline on hover */
+    cursor: pointer; /* Changes cursor to pointer */
+}
+
+.link h1{
+    font: 3em sans-serif;
+    color: #fff;
+}
+.contact{
+    margin-top: 150px;
+}
+input{
+    width: 310px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    position: relative;
+   
+}
+ .contact .btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(84, 44, 44);
+    color: white;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px;
+    position: absolute;
+    margin-left: -5.6%;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+.box3{
+    display: flex;
+    gap: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2em;
+    justify-content: center;
+}
+
+
+.logo i{
+    font-size: 2EM;
+    padding-left: 300px;
+    padding-top: 20px;
+    display: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+
+
+@media(max-width: 480px ){
+    .header{
+        display: block;
+        width: 110%;
+        height: 15vh;
+        
+    }
+    .header ul{
+        display: none;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .logo h1{
+        margin-top: 35px;
+        margin-left: -50px;
+    }
+
+    .sectino1{
+        margin-top: 4%;
+         display: block;
+        
+        
+     }
+
+     .inputone{
+        display: block;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    
+    }
+    .container{
+        width: 400px;
+        height: 700px;
+        padding: 20px;
+    
+    }
+
+
+    textarea{
+        width: 350px;
+        height: 200px;
+        
+    }
+
+   
+
+.footer{
+    display: block;
+    margin-top: 5px;
+    gap: 30px;
+    height: 80vh;
+}
+.foooter{
+    height: 84vh; 
+    padding-top: 20px; 
+    margin-top: 10px;  
+}
+.link{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.link ul{
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+.link h1{
+    font: 2em sans-serif;
+    padding-top: 20px;
+}
+.contact{
+    margin-top: 20px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    margin-left: 5%;
+    margin-top: 0%;
+    position: relative;
+   
+}
+ .contact .btn{
+    width: 100px;
+    height: 45px;
+    padding: 10px 10px;
+    position: absolute;
+    margin-left: -27%;
+    margin-top: 3px;
+
+}
+.box3{
+    display: block;
+    gap: 10px;
+    text-align: start;
+    margin-top: -6%;
+    margin-right: 2%;
+    font-size: 1em;
+}
+.box3 i{
+    margin-top: 10px;
+}
+ .social-media {
+    margin-top: -50px;
+    margin-left: -60%;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.logo i{
+    display: block;
+    margin-left: -190px;
+    font-size: 2em;
+}
+}
